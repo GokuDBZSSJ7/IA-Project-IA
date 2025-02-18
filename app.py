@@ -35,7 +35,7 @@ def predict():
         else:
             status = "Alto"
         
-        return jsonify({"risk_score": round(probabilidade * 100, 2), "status": status})
+        return jsonify({"probabilidade": round(probabilidade * 100, 2), "status": status})
 
     except Exception as e:
         return jsonify({"error": str(e)}), 400
