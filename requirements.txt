@@ -1,1 +1,1 @@
-pip install flask flask-cors joblib pandas scikit-learn numpy imbalanced-learn
+pip install flask flask-cors joblib pandas scikit-learn numpy imbalanced-learn requests
